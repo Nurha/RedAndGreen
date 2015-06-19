@@ -3,7 +3,8 @@ function myFunction() {
     var background = document.getElementById("square1").style.backgroundColor;
     if (background == "red") {
         document.getElementById("square1").style.background = "green";
-    } else {
+    } 
+    else {
         document.getElementById("square1").style.background = "red";
     }
 

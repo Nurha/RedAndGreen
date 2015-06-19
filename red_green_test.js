@@ -1,17 +1,17 @@
 
 	var rg = new RedOrGreen("myElement");
 	 
-	 rg.makeGreen("myElement");
+	 rg.makeGreen();
 	 if(document.getElementById('myElement').style.backgroundColor === 'green'){
-		window.alert('background is green');
+		window.alert('failure');
 	} 
 		else {
-		window.alert('failure');
+		window.alert('success');
 	}
 
-	 rg.makeRed("myElement");
+	 rg.makeRed();
 	if(document.getElementById('myElement').style.backgroundColor === 'red'){
-		window.alert('background is red');
+		window.alert('success');
 	} 
 		else {
 		window.alert('failure');
