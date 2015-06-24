@@ -2,15 +2,15 @@
 var assert = {
 
 			
-			equals : function(message, results){
+			equals : function(nunu, results){
 
-			var mySquare = new RedOrGreen("mySquare");
+			var mySquare = new RedOrGreen("mySquare");//this will check if the square is red or green
 				
-				if(results === message){
+				if(results === nunu){
 					mySquare.makeGreen();
 				}
 				else{
-					
+				
 				mySquare.makeRed();
 
 			}
