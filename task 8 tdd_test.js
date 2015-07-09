@@ -13,5 +13,3 @@ TestMyCode.run("testing subtract function",function(assert){
 	var result = subtract(146,35);
 	assert.equals(111, result, "testing subtract function")
 });
-//call out the function results
-results();
